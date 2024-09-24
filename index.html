@@ -1,0 +1,160 @@
+Claro! Aqui está a estrutura do seu HTML sem comentários explicativos:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>333 Salve Todos - Matue</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+            z-index: -1;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+        }
+        header h1 {
+            font-size: 4em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            background: linear-gradient(to right, #52bbd8, #52bbd8, #ffffff);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 50px 10%;
+        }
+        .content-box {
+            background-color: rgba(0, 0, 0, 0.8);
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
+            max-width: 45%;
+            flex-basis: 45%;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+        .content-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .content-box img:hover {
+            transform: scale(1.05);
+        }
+        .content-box h2 {
+            color: #52bbd8;
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+        .content-box p {
+            font-size: 1.2em;
+            line-height: 1.8em;
+            color: #e0e0e0;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px 10%;
+            text-align: center;
+        }
+        section a {
+            color: #52bbd8;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.8);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        section a:hover {
+            background-color: #000000;
+            color: #fff;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.8);
+            border-top: 2px solid #005eff;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+        footer p span {
+            color: #ff004d;
+        }
+        @media (max-width: 768px) {
+            .content-box {
+                max-width: 100%;
+                flex-basis: 100%;
+            }
+            header h1 {
+                font-size: 3em;
+            }
+            .content-box h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>333 Salve Todos</h1>
+    </header>
+    <div class="main-content">
+        <div class="content-box">
+            <img src="https://noize.com.br/wp-content/uploads/2023/12/DSC8327-1-scaled-e1701983002434.jpg" alt="Imagem 1">
+            <h2>Matue: O Impacto do Disco</h2>
+            <p>O álbum "333 Salve Todos" chega como uma explosão no cenário musical. Matue, com seu estilo único, mistura elementos do trap com beats inovadores e uma narrativa poderosa. Cada faixa reflete uma mensagem profunda, trazendo uma visão crua e realista sobre a vida.</p>
+        </div>
+        <div class="content-box">
+            <img src="https://portalrapmais.com/wp-content/uploads/2024/09/matue-2-450x253.png" alt="Imagem 2">
+            <h2>Visuais e Estilo</h2>
+            <p>Além do som, o visual do álbum traz uma estética única, misturando tons sombrios com o brilho do azul e branco. O simbolismo do número "333" permeia todo o projeto, mostrando que o Matue não apenas cria música, mas constrói uma experiência completa para os fãs.</p>
+        </div>
+    </div>
+    <section>
+        <h2>Músicas Recomendadas</h2>
+        <ul>
+            <li><a href="https://youtu.be/aq-DH4iwviE?si=A9g9pklV2PyFHAMv" target="_blank">Música 1 - 333</a></li>
+            <li><a href="https://youtu.be/lcA7Pu9W_y0?si=pop08zVJMCUfihgB" target="_blank">Música 2 - 4AM</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 333 Salve Todos | Todos os direitos reservados | Feito com 333 pensamentos | 30PRAUM</p>
+    </footer>
+</body>
+</html>
